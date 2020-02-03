@@ -8,9 +8,9 @@ namespace Modas.Models
     {
         public IQueryable<Location> Locations => new List<Location>
         {
-            new Location { LocationId = 1, Name = "Window" },
-            new Location { LocationId = 2, Name = "Garage" },
-            new Location { LocationId = 3, Name = "patio" }
+            new Location { LocationId = 1, Name = "Front Door" },
+            new Location { LocationId = 2, Name = "Family Room" },
+            new Location { LocationId = 3, Name = "Rear Door" }
         }.AsQueryable<Location>();
 
         public IQueryable<Event> Events => new List<Event>
